@@ -78,7 +78,7 @@ async def healthz():
 async def metadata():
     return {
         "team_name": os.getenv("TEAM_NAME", "Vera Bot"),
-        "team_members": [os.getenv("TEAM_MEMBER", "Tanishka Singh")],
+        "team_members": [os.getenv("TEAM_MEMBER", "Harshit Singh")],
         "model": "gemini-2.0-flash",
         "approach": (
             "LLM-powered composition (Gemini 2.0 Flash, temp=0) with per-trigger-kind prompt dispatch, "
